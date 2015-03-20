@@ -14,6 +14,6 @@ npm install --save mocha-imguri-compiler
 mocha --compilers png:mocha-imguri-compiler
 ```
 
-*NOTE: The compiler will register for a list supported image files, and not only the **png** specified in the compilers argument*
+***NOTE:*** *The compiler will register for a list supported image files, and not only the* ***png*** *specified in the compilers argument*
 
 enjoy
