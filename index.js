@@ -19,7 +19,7 @@ function handleSvg(ext, module, filename) {
     } catch(result) {
         __svg = result.data
     }
-    // TODO: throw if !__svg
+    if (!__svg) throw new Error('Unable to parse svg')
     return module._compile("module.exports = 'data:image/svg+xml;utf8,"+__svg+"'", filename)
 }
 
