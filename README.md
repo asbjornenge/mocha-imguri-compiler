@@ -18,6 +18,10 @@ mocha --compilers png:mocha-imguri-compiler
 
 ## Changelog
 
+### 1.1.1
+
+* Removed automatic svg optimization (via svgo) since it sometimes breaks the svg
+
 ### 1.1.0
 
 * Support for svg

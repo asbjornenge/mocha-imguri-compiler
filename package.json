@@ -1,6 +1,6 @@
 {
   "name": "mocha-imguri-compiler",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An img -> base64 uri compiler for mocha",
   "main": "index.js",
   "directories": {
