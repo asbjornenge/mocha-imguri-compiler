@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/asbjornenge/mocha-imguri-compiler",
   "dependencies": {
-    "svgo": "^0.5.1",
-    "wait.for": "^0.6.6"
+    "js-string-escape": "^1.0.0"
   }
 }
